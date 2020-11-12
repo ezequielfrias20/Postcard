@@ -1,0 +1,39 @@
+body {
+    background-color: #171717; 
+    font-size: 18px; 
+    font-family: 'Lobster', cursive;
+}
+.postcard{
+    background-color:white; 
+    width: 500px; 
+    height: 350;
+    margin: auto; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    padding: 15px; 
+}
+.postcard-header { 
+    overflow:hidden;
+}
+.postcard-header img{
+    max-width: 60px; 
+    float: right;
+}
+.postcard-body { 
+    overflow: hidden;
+}
+.postcard-footer { 
+    padding: 10px; 
+    text-align: center;
+}
+input {font-size: 18px;font-family: 'Lobster', cursive;}
+.postcard h1 {margin: 0;}
+h1{font-size: 40px;}
+.left-part{ float: left; width: 50%; }
+.right-parte { float: right; width: 50%; }
+.right-parte input {display: block;}
+.postcard-footer input[type = submit]{border: none; border-bottom:1px solid grey; }
+.postcard-body input[type=text]{border: none; border-bottom: 1px solid grey; font-family: 'Lobster', cursive; width: 200px; margin-bottom: 15px;
+    padding: 5px;}
